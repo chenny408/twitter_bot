@@ -4,6 +4,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+#Required file: dm_list
 with open("dm_list", "r") as f:
     for line in f:
         try:
